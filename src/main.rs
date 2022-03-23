@@ -1,3 +1,12 @@
 fn main() {
-    println!("This is dmal 0.0!");
+    let example = "
+    namespace com.example.time
+
+    record Date {
+      day: int
+      month: int
+      year: int
+    }
+    ";
+    println!("{}", example);
 }
